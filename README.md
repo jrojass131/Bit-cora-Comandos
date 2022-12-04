@@ -38,12 +38,12 @@ Comandos de ubuntu, Docker y manjaro
 |`sudo pacman -Scc`| Limpiar el sitema en manjaro|sudo pacman -Scc: emepieza a limpira cache y demás basura|
 |`pacman -R`|Elimina el paquete que se indique en manjaro |pacman -R (paquete)|
 |`pacman -Q`|Muestra los paquetes instalados|pacman -Q: ...lista de paquetes|
-|`yay -S google-chrome`|ibstala google chrome |ingresar en la terminal de manjaro yay -S google-chrome: se instalará chrome|
+|`yay -S google-chrome`|instala google chrome |ingresar en la terminal de manjaro yay -S google-chrome: se instalará chrome|
 |`sudo pacman -S apache`|instala apache |una vez instaldo se puede digitar `nano /svr/html/index.html` para crear el contenido de la página|
 |`neofetch`| muestra infromación del SO| neofetc: imagen del SO con la info incluida |
 |`sudo pacman -S unrar zip unzip p7zip gzip bzip2 `| instala zip| zip students.txt |
 |`sudo yay -S --needed base-devel`|Muestra el repositorio core |36,0 k |
-|``| | |
+|`Docker iamges`| | |
 |``| | |
 |``| | |
 |``| | |
