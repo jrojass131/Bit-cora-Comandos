@@ -34,7 +34,8 @@ Comandos de ubuntu, Docker y manjaro
 |`chown`|cambiar al usario dueño |chown jrojass131 students.txt |
 |`tar`|comprimir archivos dentro de tar |tar script01.sh |
   
-||Manjaro||
+Manjaro
+  
 |`sudo pacman -Syy`|Actualizar el sistema |sudo pacman -Syy: empieza a actualizar en manajro|
 |`sudo pacman -S`| Instalación de un programa en manjaro|sudo pacman -S paquete|
 |`sudo pacman -Scc`| Limpiar el sitema en manjaro|sudo pacman -Scc: emepieza a limpira cache y demás basura|
@@ -46,7 +47,8 @@ Comandos de ubuntu, Docker y manjaro
 |`sudo pacman -S unrar zip unzip p7zip gzip bzip2 `| instala zip| zip students.txt |
 |`sudo yay -S --needed base-devel`|Muestra el repositorio core |36,0 k |
   
-||Docker||
+Docker
+  
 |``| | |
 |``| | |
 |``| | |
