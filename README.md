@@ -61,4 +61,3 @@ Comandos de ubuntu, Docker y manjaro
 |`RUN`|indica los comandos a ejecutar |RUN echo "Hello world" |
 |`ADD`|añade elementos |ADD ficheros /index.html |
 |`:wq`|Guardar un archivo vim y sale del archivo |vim Dockerfile 1 <ctrl o> :wq|
-
