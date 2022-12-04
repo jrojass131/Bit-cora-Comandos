@@ -33,6 +33,7 @@ Comandos de ubuntu, Docker y manjaro
 |`echo`|Puede ser usado dentro de un script bash para imprimir en la terminal |echo "Hello world"|
 |`chown`|cambiar al usario dueño |chown jrojass131 students.txt |
 |`tar`|comprimir archivos dentro de tar |tar script01.sh |
+|--------|Manjaro|-----------------------|
 |`sudo pacman -Syy`|Actualizar el sistema |sudo pacman -Syy: empieza a actualizar en manajro|
 |`sudo pacman -S`| Instalación de un programa en manjaro|sudo pacman -S paquete|
 |`sudo pacman -Scc`| Limpiar el sitema en manjaro|sudo pacman -Scc: emepieza a limpira cache y demás basura|
@@ -42,16 +43,22 @@ Comandos de ubuntu, Docker y manjaro
 |`sudo pacman -S apache`|instala apache |una vez instaldo se puede digitar `nano /svr/html/index.html` para crear el contenido de la página|
 |`neofetch`| muestra infromación del SO| neofetc: imagen del SO con la info incluida |
 |`sudo pacman -S unrar zip unzip p7zip gzip bzip2 `| instala zip| zip students.txt |
+|--------|Docker|-----------------------|
 |`sudo yay -S --needed base-devel`|Muestra el repositorio core |36,0 k |
-|`Docker iamges`| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
+|`docker images`|visualizar las imagenes descargadas |images docker: ubuntu, Id:60987653 |
+|`docker search`|Busca en el repositorio de Docker Hub una imagen con ese nombre|docker search ubuntu |
+|`docker pull`|Descarga la imagen del contenedor | docker pull ubuntu:latest|
+|`docker run`|Ejecuta un nuevo contenedor usando una imagen|docker run ubuntu |
+|`sudo docker ps -a`| observar el estado actual de los contendeores |contendor up 17min ago, contendor2 exited |
+|`sudo  docker start `|inicializa un contendor detenido | sudo docker satart cinnamonCandy (nombre del contenedor) |
+|`sudo  docker stop`| detiene un contenedor en estado run |sudo docker stop cinnamonCandy |
+|`docker rmi image`|Elimina una imagen dentro de docker|docker rmi image ubuntu |
+|`docker rmi image`+ ID|elimina un contenedor |docekr rmi 8765rt |
+|`docker run --rm`+ imagen|Elimina una imagen de un contenedor que ya fue cerrado |docker run --rm ubuntu |
+|`docker networ ls`|Conocer la red de docker |NETWORK ID, Name, driver and scope |
+|`vim Dockerfile`|crear un archivo Docker |vim Dockerfile 1|
+|`FROM`|Indica la imagen sobre que se ejeuta el contenedor |FROM ubuntu |
+|`RUN`|indica los comandos a ejecutar |RUN echo "Hello world" |
+|`ADD`|añade elementos |ADD ficheros /index.html |
+|`:wq`|Guardar un archivo vim y sale del archivo |vim Dockerfile 1 <ctrl o> :wq|
+
