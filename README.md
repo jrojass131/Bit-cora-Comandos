@@ -33,7 +33,6 @@ Comandos de ubuntu, Docker y manjaro
 |`echo`|Puede ser usado dentro de un script bash para imprimir en la terminal |echo "Hello world"|
 |`chown`|cambiar al usario dueño |chown jrojass131 students.txt |
 |`tar`|comprimir archivos dentro de tar |tar script01.sh |
-
 |`sudo pacman -Syy`|Actualizar el sistema |sudo pacman -Syy: empieza a actualizar en manajro|
 |`sudo pacman -S`| Instalación de un programa en manjaro|sudo pacman -S paquete|
 |`sudo pacman -Scc`| Limpiar el sitema en manjaro|sudo pacman -Scc: emepieza a limpira cache y demás basura|
@@ -44,7 +43,6 @@ Comandos de ubuntu, Docker y manjaro
 |`neofetch`| muestra infromación del SO| neofetc: imagen del SO con la info incluida |
 |`sudo pacman -S unrar zip unzip p7zip gzip bzip2 `| instala zip| zip students.txt |
 |`sudo yay -S --needed base-devel`|Muestra el repositorio core |36,0 k |
-  
 |``| | |
 |``| | |
 |``| | |
