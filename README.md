@@ -23,13 +23,20 @@ Comandos de ubuntu, Docker y manjaro
 |`more`|Misma función de cat, pero para archivos más grandes, ya que permite verlo línea por línea |more Biblia |
 |`mv`|Para mover un archivo de un lugar a otro |mv<nombre de archivo><donde queremos moverlo>, mv clase universidad |
 |`head`| Imprime al inicio las primeras líneas que se especifiquen en un archivo |Head-10 Biblia: imprime las primeras 10 líneas de ese archivo |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
-|``| | |
+|`tail`|Imprime las últimas líneas que se especifiquen en un archivo |tail-3 Biblia: imprime las últimas 3 líneas del archivo |
+|`chmod`|gestiona los permisos de archivos o bien directorios |chmod 777 |
+|`mkdir`|crear carpetas o subdirectorios | mkdir dir001|
+|`ls`| Muestra el contenido de una archivo, carpeta o directorio|/home, ls-l |
+|`rm`|Se encarga de eliminar archivos |rm students.txt |
+|`rm -r`|Eliminación recursiva |rm -r /home |
+|`ps`|Estado actual de los procesos del sistema |ps -aux |
+|`echo`|Puede ser usado dentro de un script bash para imprimir en la terminal |echo "Hello world"|
+|`chown`|cambiar al usario dueño |chown jrojass131 students.txt |
+|`tar`|comprimir archivos dentro de tar |tar script01.sh |
+|`sudo pacman -Syy`|Actualizar el sistema |sudo pacman -Syy: empieza a actualizar en manajro|
+|`sudo pacman -S`| Instalación de un programa en manjaro|sudo pacman -S paquete|
+|`sudo pacman -Scc`| Limpiar el sitema en manjaro|sudo pacman -Scc: emepieza a limpira cache y demás basura|
+|`pacman -R`|Elimina el paquete que se indique en manjaro |pacman -R (paquete)|
+|`pacman -Q`|Muestra los paquetes instalados|pacman -Q: ...lista de paquetes|
+|``| ||
+|``| ||
